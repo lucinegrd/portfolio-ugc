@@ -1,0 +1,29 @@
+.Why {
+    display: flex;
+    flex-direction: row;
+}
+
+.Why_stat {
+    flex: 1;
+    align-items: center;
+}
+
+.Why_head {
+    flex: 1;
+}
+
+.Why_head_title {
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    font-weight: 900;
+    color: var(--yellow);
+}
+
+.Why_head_phrase {
+    font-family: 'Josefin Sans', sans-serif;
+    color: var(--beige);
+    font-size: 20px;
+    line-height: 30px;
+    font-style: italic;
+    padding: 0 20%;
+}
