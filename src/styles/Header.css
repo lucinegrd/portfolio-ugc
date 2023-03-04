@@ -1,0 +1,26 @@
+.Header{
+    margin: 0;
+    position: absolute;
+    width: 72%;
+  }
+  
+  .Header_list{
+    color: var(--green);
+    list-style-type: none;
+    padding: 0;
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 30px;
+  }
+  
+  button{
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+  }

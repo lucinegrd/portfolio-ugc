@@ -1,0 +1,54 @@
+.Home {
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+
+}
+
+.Home_text {
+    flex: 3;
+    text-align: center;
+    color: var(--yellow);
+    margin-bottom: 0;
+
+}
+
+.Home_pic_img{
+    width: 500px;
+    margin-bottom: 0;
+}
+
+.Home_text_name {
+    font-family: 'Abril Fatface', sans-serif;
+    font-size: 100px;
+    margin-bottom: 0;
+}
+
+.Home_text_niches {
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+
+.Home_text_ugc {
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 2px;
+    font-size: 25px;
+}
+
+.France {
+    margin-left: 3px;
+    padding-top: 5px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+}
+
+.Home_links{
+    justify-content: space-between;
+}
+
+.Home_links_icon{
+    margin: 20px 15px;
+    width: 50px;
+}
+
