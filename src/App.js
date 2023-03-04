@@ -8,6 +8,9 @@ function App() {
       <Header></Header>
       <Home></Home>
       <About></About>
+      <div style={{height:'400px'}}>
+        <p style={{color:'var(--red)'}}>à venir</p>
+      </div>
     </div>
 }
 
