@@ -4,6 +4,13 @@
   width: 72%;
 }
 
+@media (max-width: 640px) {
+  .Header {
+    width: 100vw;
+
+  }
+}
+
 .Header_list {
   color: #368226;
   list-style-type: none;
@@ -13,6 +20,13 @@
   justify-content: space-around;
   font-family: 'League Spartan', sans-serif;
   font-size: 30px;
+}
+
+@media (max-width: 640px) {
+  .Header_list {
+    margin-left: 0;
+    font-size: 15px;
+  }
 }
 
 button {

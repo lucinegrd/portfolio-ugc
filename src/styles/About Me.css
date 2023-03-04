@@ -29,9 +29,13 @@ p {
     font-size: 25px;
     line-height: 30px;
     display: flex;
-
 }
 
+@media (max-width: 640px) {
+    .About_container{
+        flex-direction: column;
+    }
+}
 .About_text_p {
     padding: 10px 10%;
     

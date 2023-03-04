@@ -9,7 +9,7 @@ function About() {
                 <span style={{ fontStyle: 'italic', fontWeight: '600' }}>More</span><br />
                 <span style={{ fontWeight: '900', marginBottom: '20px' }}>About me</span>
             </p>
-            <img src={pic} alt="lucine à toulouse" />
+            <img src={pic} alt="lucine à toulouse" style={{width:"50%"}}/>
         </div>
         <div className='About_text'>
             <div className='About_text_p'>

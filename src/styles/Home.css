@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: row;
     margin-left: 5%;
-
 }
 
 .Home_text {
@@ -10,30 +9,47 @@
     text-align: center;
     color: var(--yellow);
     margin-bottom: 0;
-
 }
 
-.Home_pic_img{
-    width: 500px;
-    margin-bottom: 0;
+
+.Home_pic_img {
+    margin: 0 30px;
+}
+
+.Home_pic_pc {
+    display: flex;
+    align-items: flex-end;
+    min-width: 35%;
+}
+
+.Home_pic_phone {
+    display: none;
 }
 
 .Home_text_name {
     font-family: 'Abril Fatface', sans-serif;
-    font-size: 100px;
+    font-size: 7em;
     margin-bottom: 0;
 }
 
 .Home_text_niches {
     font-family: 'Quicksand', sans-serif;
     letter-spacing: 2px;
-    font-size: 30px;
+    font-size: 2.2em;
 }
 
 .Home_text_ugc {
     font-family: 'Josefin Sans', sans-serif;
     letter-spacing: 2px;
-    font-size: 25px;
+    font-size: 1.8em;
+}
+
+.Home_location {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
 }
 
 .France {
@@ -43,12 +59,66 @@
     font-size: 25px;
 }
 
-.Home_links{
+.Home_links {
     justify-content: space-between;
 }
 
-.Home_links_icon{
+.Home_links_icon {
     margin: 20px 15px;
     width: 50px;
 }
 
+@media (max-width: 640px) {
+    .Home {
+        flex-direction: column;
+        margin: 1.5em;
+        margin-bottom: 0;
+    }
+
+    .Home_text_name {
+        font-size: 3em;
+    }
+
+    .Home_text_niches {
+        font-size: 0.8em;
+        font-weight: 700;
+        margin-top: 0.5em;
+        margin-bottom: 2em;
+    }
+
+    .Home_text_ugc {
+        font-size: 1em;
+    }
+
+    .Home_location {
+        margin-top: 0px;
+    }
+
+    .France {
+        font-size: 1em;
+    }
+
+    .Home_pic_phone {
+        display: flex;
+    }
+
+    .Home_pic_pc {
+        display: none;
+    }
+
+    .Home_links_pic_phone {
+        display: flex;
+    }
+
+    .Home_links {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .Home_links_icon {
+        margin: 1em 0.3em;
+        width: 70%;
+    }
+
+}
