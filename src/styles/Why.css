@@ -9,7 +9,7 @@
     flex-direction: column;
     color: var(--beige);
     align-items: center;
-    justify-self: center;
+    justify-content: center;
     text-align: left;
 }
 
@@ -27,24 +27,20 @@
 .Why_stat_figures {
     display: flex;
     flex-direction: row;
-    width: 100%;
+}
+
+.Why_stat_number {
     font-family: 'Playfair Display', serif;
     color: var(--yellow);
     font-size: 3em;
+    margin: 0;
+    flex: 1;
 }
 
 .Why_stat_text {
-    display: flex;
-    flex-direction: row;
+    margin: 1em;
     font-family: 'Josefin Sans', sans-serif;
     color: var(--beige);
-}
-
-.Why_stat_text_item{
-    flex: 1;
-    margin: 1em;
-    display: flex;
-    align-items: center;
 }
 
 .Why_head {
@@ -68,4 +64,47 @@
     line-height: 30px;
     font-style: italic;
     padding: 0 20%;
+}
+
+@media (max-width: 640px) {
+    .Why {
+        flex-direction: column-reverse;
+    }
+
+    .Why_head_title {
+        margin: 0.5em;
+    }
+
+    .Why_head_phrase {
+        padding: 0 5%;
+        margin:0;
+        font-size: 1.2em;
+        line-height: 1.2em;
+    }
+
+    .Why_stat{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .Why_stat_figures{
+        margin-top: 5%;
+        flex-direction: column;
+        padding: 0 5%;
+    }
+
+    .Why_stat_item{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .Why_stat_text{
+        text-align: right;
+    }.invert{
+        text-align: left;
+    }
+
+    .Why_stat_def{
+        padding-top: 0;
+    }
 }

@@ -6,24 +6,27 @@ function Why() {
         <div className='Why_stat'>
             <div className='Why_stat_def'>
                 <img src={star} alt="étoile" style={{ width: '20px', height: '30px', marginRight: '1em' }} />
-                <p style={{ textAlign: 'left' }}>L'UGC (User Generated Content) place vos clients au premier plan de votre marque<br />humanisant ainsi davantage votre marketing et vos ventes.</p>
+                <p style={{ textAlign: 'left' }}>L'UGC (User Generated Content) place vos clients au premier plan de votre marque humanisant ainsi davantage votre marketing et vos ventes.</p>
             </div>
             <div className='Why_stat_figures'>
-                <p style={{ margin: '0', flex:1 }}><span style={{ fontSize: '1.4em' }}>4</span>x</p>
-                <p style={{ margin: '0',flex:1  }}><span style={{ fontSize: '1.4em' }}>84</span>%</p>
-                <p style={{ margin: '0',flex:1  }}><span style={{ fontSize: '1.4em' }}>2.4</span>x</p>
-
-            </div>
-            <div className='Why_stat_text'>
-                <p className='Why_stat_text_item'>
-                    Les publicités basées sur l'UGC obtiennent des taux de clics 4 fois plus élevés que les publicités classiques
-                </p>
-                <p className='Why_stat_text_item'>
-                    84% des consommateurs déclarent faire confiance aux recommandations avant toute autre source de publicité
-                </p>
-                <p className='Why_stat_text_item'>
-                    Les consommateurs trouvent 2,4 fois plus authentique le contenu généré par les utilisateurs que celui de la marque
-                </p>
+                <div className='Why_stat_item'>
+                    <p className="Why_stat_number"><span style={{ fontSize: '1.4em' }}>4</span>x</p>
+                    <p className='Why_stat_text'>
+                        Les publicités basées sur l'UGC obtiennent des taux de clics 4 fois plus élevés que les publicités classiques
+                    </p>
+                </div>
+                <div className='Why_stat_item' style={{flexDirection:'row'}}>
+                    <p className="Why_stat_number"><span style={{ fontSize: '1.4em' }}>84</span>%</p>
+                    <p className='invert Why_stat_text '>
+                        84% des consommateurs déclarent faire confiance aux recommandations avant toute autre source de publicité
+                    </p>
+                </div>
+                <div className='Why_stat_item'>
+                    <p className="Why_stat_number"><span style={{ fontSize: '1.4em' }}>2.4</span>x</p>
+                    <p className='Why_stat_text'>
+                        Les consommateurs trouvent 2,4 fois plus authentique le contenu généré par les utilisateurs que celui de la marque
+                    </p>
+                </div>
             </div>
         </div>
         <div className='Why_head'>

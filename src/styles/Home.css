@@ -77,6 +77,7 @@
 
     .Home_text_name {
         font-size: 3em;
+        margin-top: 0;
     }
 
     .Home_text_niches {
@@ -106,6 +107,10 @@
 
     .Home_pic_pc {
         display: none;
+    }
+
+    .Home_pic_img {
+        margin: 0;
     }
 
     .Home_links_pic_phone {
