@@ -1,8 +1,10 @@
 :root {
   --red: #FF6643;
+  --darker-red: #dd2900;
   --green: #44A22F;
+  --darker-green: #307321;
   --yellow: #FFDA43;
-  --beige: #FFF1D1;
+  --beige: #ffeab8;
 }
 
 body {

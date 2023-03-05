@@ -1,0 +1,14 @@
+.Work{
+    background-color: var(--yellow);
+    display: flex;
+    flex-direction: column;
+
+}
+
+.Work_title{
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    font-weight: 900;
+    color: var(--green);
+    margin: 10px 0 50px 0;
+}

@@ -1,0 +1,44 @@
+.Services {
+    background-color: var(--green);
+    display: flex;
+    flex-direction: column;
+}
+
+.Services_title {
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    font-weight: 900;
+    color: var(--yellow);
+    margin: 10px;
+}
+
+.Services_intro{
+    color: var(--beige);
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.2em;
+}
+
+.Services_item {
+    background-color: var(--red);
+    width: auto;
+    margin: 10px;
+    padding: 10px 15px 7px;
+    border-radius: 20px;
+    color: var(--beige);
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.2em;
+}
+
+.Services{
+    color: var(--darker-green);
+}
+
+.Services_cat_sub{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 10%;
+}.center{
+    margin: 0 7%;
+}

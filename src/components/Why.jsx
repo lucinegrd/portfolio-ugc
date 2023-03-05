@@ -17,7 +17,7 @@ function Why() {
                 </div>
                 <div className='Why_stat_item' style={{flexDirection:'row'}}>
                     <p className="Why_stat_number"><span style={{ fontSize: '1.4em' }}>84</span>%</p>
-                    <p className='invert Why_stat_text '>
+                    <p className='Why_stat_text invert'>
                         84% des consommateurs déclarent faire confiance aux recommandations avant toute autre source de publicité
                     </p>
                 </div>
