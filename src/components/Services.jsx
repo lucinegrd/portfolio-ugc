@@ -8,7 +8,7 @@ import { FiMusic } from 'react-icons/fi'
 function Services() {
     return <div id="services" className='Services'>
         <p className="Services_title">Ce que je propose</p>
-        <p className="Services_intro">Il y a tant de façons de communiquer avec votre audience cible, voici quelques exemples de ce que je peux faire pour vous :</p>
+        <p className="Services_intro">Il y a tant de façons de communiquer avec votre audience cible, voici quelques exemples de ce que je peux faire pour vous : </p>
         <div className='Services_cat'>
             <div className='Services_cat_sub'>
                 <p className="Services_item">Démo produit</p>
