@@ -12,27 +12,27 @@ function Services() {
         <div className='Services_cat'>
             <div className='Services_cat_sub'>
                 <p className="Services_item">Démo produit</p>
-                <FiMusic size={25}  />
+                <FiMusic size={25} className="Services_icon"/>
                 <p className="Services_item">Unboxing</p>
-                <BsBoxSeam size={25}  />
+                <BsBoxSeam size={25} className="Services_icon"/>
                 <p className="Services_item">ASMR</p>
-                <MdKeyboardVoice size={25}  />
+                <MdKeyboardVoice size={25} className="Services_icon"/>
             </div>
             <div className='Services_cat_sub center'>
-                <BsChatQuote size={25}  />
+                <BsChatQuote size={25} className="Services_icon"/>
                 <p className="Services_item">Témoignage</p>
-                <BsTiktok size={25}  />
+                <BsTiktok size={25} className="Services_icon"/>
                 <p className="Services_item">Trend</p>
-                <TiTickOutline size={25}  />
+                <TiTickOutline size={25} className="Services_icon"/>
                 <p className="Services_item">Do & Don't</p>
             </div>
             <div className='Services_cat_sub'>
                 <p className="Services_item">Voix off</p>
-                <AiOutlineSound size={25}  />
+                <AiOutlineSound size={25} className="Services_icon"/>
                 <p className="Services_item">Face Cam</p>
-                <BsPersonVideo size={25}  />
-                <p className="Services_item">Vidéo Esthétique</p>
-                <BsStars size={25}  />
+                <BsPersonVideo size={25} className="Services_icon"/>
+                <p className="Services_item">Esthétique</p>
+                <BsStars size={25} className="Services_icon"/>
             </div>
 
         </div>

@@ -42,3 +42,18 @@
 }.center{
     margin: 0 7%;
 }
+
+@media (max-width: 640px) {
+    .Services_intro{
+        font-size: 1.1em;
+        margin: 0 10px;
+    }
+    .Services_icon{
+        display: none;
+    }
+    .Services_cat_sub{
+        font-size: 0.9em;
+        margin: 0 2%;
+
+    }
+  }
