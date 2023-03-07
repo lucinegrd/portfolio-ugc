@@ -3,12 +3,13 @@ import smile from '../asset/photos/smile.jpeg'
 import insta from "../asset/photos/insta2.png"
 import tiktok from "../asset/photos/tiktok2.png"
 import mail from "../asset/photos/mail2.png"
+import { Text } from '../langues/Text'
 
 function Contact() {
     return <div id="contact" className='Contact'>
         <div className='Contact_container'>
             <div className='Contact_info'>
-                <p className="Contact_title">Me contacter</p>
+                <p className="Contact_title"><Text tid="contacter" i={-1} /></p>
                 <table className='Contact_table'>
                     <tr>
                         <td className='Contact_icon'>

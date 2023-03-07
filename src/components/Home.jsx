@@ -6,13 +6,14 @@ import youtube from "../asset/photos/youtube.png"
 
 import '../styles/Home.css';
 import { FaMapMarkerAlt } from 'react-icons/fa'
+import { Text } from "../langues/Text"
 
 function Home() {
     return <div className="Home">
         <div className="Home_text">
             <p className="Home_text_name">Lucine  Giraud</p>
             <p className="Home_text_niches">LIFESTYLE | PERSONAL CARE | PLANT LOVER</p>
-            <p className="Home_text_ugc">Créatrice UGC - Créatrice de contenu pour les marques</p>
+            <p className="Home_text_ugc"><Text tid="metier" i={-1}/></p>
             <div className="Home_location">
                 <FaMapMarkerAlt size={20} />
                 <p className="France"> France</p>
