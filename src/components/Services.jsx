@@ -34,8 +34,10 @@ function Services() {
                 <p className="Services_item">Esthétique</p>
                 <BsStars size={25} className="Services_icon"/>
             </div>
-
         </div>
+        <p className="Services_text">Chaque collaboration est unique, j'écouterai avec soins vos idées et me ferai un plaisir de les réaliser !</p>
+        <p className="Services_text">Les <strong>tarifs</strong> peuvent varier d'un contenu à un autre (type de vidéo, nombre de hooks, utilisation du contenu, préparation du script etc...).</p>
+        <p className="Services_text">Je vous laisse me contacter pour construire un <strong>devis</strong> ensemble ✨ </p>
     </div>
 }
 

@@ -2,6 +2,7 @@
     background-color: var(--green);
     display: flex;
     flex-direction: column;
+    padding-bottom: 10px;
 }
 
 .Services_title {
@@ -12,10 +13,22 @@
     margin: 10px;
 }
 
-.Services_intro{
+.Services_intro {
     color: var(--beige);
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1.2em;
+    margin: 10px 20px;
+}
+
+.Services_cat {
+    margin: 20px
+}
+
+.Services_text {
+    color: var(--beige);
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.2em;
+    margin: 10px 20%;
 }
 
 .Services_item {
@@ -29,31 +42,41 @@
     font-size: 1.2em;
 }
 
-.Services{
+.Services {
     color: var(--darker-green);
 }
 
-.Services_cat_sub{
+.Services_cat_sub {
     display: flex;
     justify-content: center;
     align-items: center;
     justify-content: space-evenly;
     margin: 0 10%;
-}.center{
+}
+
+.center {
     margin: 0 7%;
 }
 
 @media (max-width: 640px) {
-    .Services_intro{
-        font-size: 1.1em;
-        margin: 0 10px;
+    .Services_intro {
+        font-size: 1.05em;
+        margin: 10px 25px;
     }
-    .Services_icon{
+
+    .Services_text {
+        font-size: 1.05em;
+        margin: 10px 25px;
+
+    }
+
+    .Services_icon {
         display: none;
     }
-    .Services_cat_sub{
+
+    .Services_cat_sub {
         font-size: 0.9em;
         margin: 0 2%;
 
     }
-  }
+}

@@ -12,3 +12,15 @@ body {
   background-color: var(--red);
 }
 
+.footer_text{
+  color: var(--darker-green);
+  font-style: italic;
+  font-size: 1em;
+  margin: 0;
+  padding-bottom: 3px;
+}
+
+.footer{
+  background-color: var(--yellow);
+  justify-content: center;
+}

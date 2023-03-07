@@ -19,8 +19,8 @@ function Home() {
             </div>
             <div className="Home_links_pic_phone">
                 <div className="Home_links">
-                    <a href="mailto:contact-ugc@lucine-giraud.com" target="_blank" rel="noreferrer"><img src={mail} alt="instagram" className="Home_links_icon" /></a>
-                    <a href="https://www.tiktok.com/@lucine.ugc" target="_blank" rel="noreferrer"><img src={tiktok} alt="instagram" className="Home_links_icon" /></a>
+                    <a href="mailto:contact-ugc@lucine-giraud.com" target="_blank" rel="noreferrer"><img src={mail} alt="mail" className="Home_links_icon" /></a>
+                    <a href="https://www.tiktok.com/@lucine.ugc" target="_blank" rel="noreferrer"><img src={tiktok} alt="tiktok" className="Home_links_icon" /></a>
                     <a href="https://www.instagram.com/lucine.ugc/" target="_blank" rel="noreferrer"><img src={insta} alt="instagram" className="Home_links_icon" /></a>
                     <a href="https://www.youtube.com/channel/UCxkCFuD-PtTCVP2H0etYXQQ" target="_blank" rel="noreferrer"><img src={youtube} alt="instagram" className="Home_links_icon" /></a>
                 </div>

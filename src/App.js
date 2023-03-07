@@ -1,5 +1,6 @@
 import './App.css';
 import About from './components/About Me';
+import Contact from './components/Contact';
 import Header from './components/Header';
 import Home from './components/Home';
 import Services from './components/Services';
@@ -14,6 +15,13 @@ function App() {
       <Why></Why>
       <Work></Work>
       <Services></Services>
+      <Contact></Contact>
+      <div className='footer'>
+        <p className='footer_text'>
+          Ce site a été entièrement codé par mes soins.
+        </p>
+
+      </div>
     </div>
 }
 
