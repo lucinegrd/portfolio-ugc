@@ -37,8 +37,8 @@ function Services() {
             </div>
         </div>
         <p className="Services_text"><Text tid="collab" i={-1} /></p>
-        <p className="Services_text"><Text tid="tarif" i={0} /><strong>tarifs</strong><Text tid="tarif" i={1} /></p>
-        <p className="Services_text"><Text tid="devis" i={0} /><strong>devis</strong><Text tid="devis" i={1} /></p>
+        <p className="Services_text"><Text tid="tarif" i={0} /><strong><Text tid="tarif" i={1} /></strong><Text tid="tarif" i={2} /></p>
+        <p className="Services_text"><Text tid="devis" i={0} /><strong><Text tid="devis" i={1} /></strong><Text tid="devis" i={2} /></p>
     </div>
 }
 

@@ -34,8 +34,8 @@ function Why() {
             <p className='Why_head_title'>Why UGC ?</p>
             <p className='Why_head_phrase'>"<strong>Tiktok</strong>
             <Text tid="citation" i={0} />
-            <strong>authenticité</strong><Text tid="citation" i={1} />
-            <strong>naturel</strong><Text tid="citation" i={2} />"</p>
+            <strong><Text tid="citation" i={3} /></strong><Text tid="citation" i={1} />
+            <strong><Text tid="citation" i={4} /></strong><Text tid="citation" i={2} />"</p>
         </div>
 
     </div>
