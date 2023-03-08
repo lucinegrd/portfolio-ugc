@@ -1,8 +1,8 @@
 .Selector {
     position: absolute;
-    top: 5px;
+    top: 7px;
     right: 0;
-    transform: translateX(50%);
+    transform: translateX(35%);
     transition: 0.2s;
     background-color: var(--darker-red);
     border-radius: 30px;
@@ -20,7 +20,7 @@
 }
 
 .Selector:hover {
-    transform: translateX(-5%);
+    transform: translateX(-20%);
 }
 
 .Selector_langue {

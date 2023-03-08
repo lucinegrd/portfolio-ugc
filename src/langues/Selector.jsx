@@ -14,20 +14,14 @@ export default function Selector() {
             <button
                 className={"fr"=== userLanguage ? "Selector_langue Selector_selected" : "Selector_langue"}
                 onClick={() => handleLanguageChange("fr")}>
-                FR</button>
+                FR
+            </button>
             <button
                 className={"en"=== userLanguage ? "Selector_langue Selector_selected" : "Selector_langue"}
                 onClick={() => handleLanguageChange("en")}>
-                EN</button>
+                EN
+            </button>
 
         </div>
-        /*<select
-            onChange={handleLanguageChange}
-            value={userLanguage}
-        >
-            {Object.entries(languageOptions).map(([id, name]) => (
-                <option key={id} value={id}>{name}</option>
-            ))}
-        </select>*/
     );
 };

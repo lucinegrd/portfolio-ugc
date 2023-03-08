@@ -7,13 +7,38 @@
   --beige: #ffeab8;
 }
 
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--darker-red) ;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 11px;
+  margin-right: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--darker-red);
+  border-radius: 12px;
+  background-clip: padding-box;
+    -webkit-border-radius: 1em;
+}
+
 body {
   margin: 0;
   background-color: var(--red);
   overflow-x: hidden;
+  overflow-y: overlay;
 }
 
-.footer_text{
+.footer_text {
   color: var(--darker-green);
   font-style: italic;
   font-size: 1em;
@@ -21,7 +46,7 @@ body {
   padding-bottom: 3px;
 }
 
-.footer{
+.footer {
   background-color: var(--yellow);
   justify-content: center;
 }
