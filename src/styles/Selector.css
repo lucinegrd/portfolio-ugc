@@ -11,11 +11,11 @@
     overflow: hidden;
 }
 
-.fr_first{
+.fr_first {
     flex-direction: row;
 }
 
-.en_first{
+.en_first {
     flex-direction: row-reverse;
 }
 
@@ -32,4 +32,25 @@
 .Selector_selected {
     color: var(--beige);
     padding-right: 10px;
+}
+
+@media (max-width: 640px) {
+    .Selector {
+        transform: none;
+        right: 7px;
+        margin-bottom: 10px;
+    }
+
+    .Selector:hover{
+        transform: none;
+    }
+
+    .en_first{
+        flex-direction: row;
+    }
+
+    .Selector_langue{
+        padding-right: 5px;
+        padding-left: 5px;
+    }
 }

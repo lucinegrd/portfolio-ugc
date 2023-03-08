@@ -7,7 +7,6 @@ import { Text } from '../langues/Text'
 
 function Contact() {
     return <div id="contact" className='Contact'>
-        <div className='Contact_container'>
             <div className='Contact_info'>
                 <p className="Contact_title"><Text tid="contacter" i={-1} /></p>
                 <table className='Contact_table'>
@@ -24,7 +23,7 @@ function Contact() {
                             <a href="https://www.tiktok.com/@lucine.ugc" target="_blank" rel="noreferrer"><img src={tiktok} alt="tiktok" className='Contact_icon_item'/></a>
                         </td>
                         <td className='Contact_text'>
-                        <a href="https://www.tiktok.com/@lucine.ugc" target="_blank" rel="noreferrer" className='Contact_text_item'><p>www.tiktok.com/@lucine.ugc</p></a>
+                            <a href="https://www.tiktok.com/@lucine.ugc" target="_blank" rel="noreferrer" className='Contact_text_item'><p>www.tiktok.com/@lucine.ugc</p></a>
                         </td>
                     </tr>
                     <tr>
@@ -40,7 +39,6 @@ function Contact() {
             <div className='Contact_pic'>
                 <img className='Contact_pic_img' src={smile} alt="lucine big smile" />
             </div>
-        </div>
     </div>
 }
 

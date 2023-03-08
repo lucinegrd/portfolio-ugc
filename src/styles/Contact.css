@@ -2,6 +2,8 @@
     background-color: var(--red);
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 .Contact_title {
@@ -11,15 +13,6 @@
     color: var(--yellow);
     margin-top: 0;
     margin-bottom: 40px;
-}
-
-
-.Contact_container{
-    flex:1;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
 }
 
 .Contact_info{
@@ -32,6 +25,7 @@
 td{
     display: flex;
     align-items: center;
+    text-align: center;
 }
 
 tr{
@@ -76,4 +70,26 @@ tr{
     width: 60%;
     border-radius: 100%;
     padding: 50px 0;
+}
+
+@media (max-width: 640px) {
+    .Contact{
+        flex-direction: column;
+    }
+
+    .Contact_title{
+        margin: 15px 0 ;
+    }
+
+    .Contact_icon{
+        width: auto;
+    }
+
+    .Contact_text{
+        width: auto;
+    }
+.Contact_pic_img{
+    width: 70%;
+    padding: 30px;
+}
 }
