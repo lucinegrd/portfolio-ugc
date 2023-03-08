@@ -6,11 +6,6 @@ import { createContext } from 'react';
 
 export const dictionaryList = { fr, en };
 
-export const languageOptions = {
-  fr: 'Français',
-  en: 'English'
-};
-
 export const LanguageContext = createContext({
   userLanguage: 'fr',
   dictionary: dictionaryList.fr

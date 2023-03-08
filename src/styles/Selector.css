@@ -1,0 +1,35 @@
+.Selector {
+    position: absolute;
+    top: 5px;
+    right: 0;
+    transform: translateX(50%);
+    transition: 0.2s;
+    background-color: var(--darker-red);
+    border-radius: 30px;
+    padding: 0 7px;
+    display: flex;
+    overflow: hidden;
+}
+
+.fr_first{
+    flex-direction: row;
+}
+
+.en_first{
+    flex-direction: row-reverse;
+}
+
+.Selector:hover {
+    transform: translateX(-5%);
+}
+
+.Selector_langue {
+    color: var(--red);
+    padding: 3px;
+    padding-bottom: 5px;
+}
+
+.Selector_selected {
+    color: var(--beige);
+    padding-right: 10px;
+}

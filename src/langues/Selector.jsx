@@ -1,18 +1,33 @@
 import { useContext } from 'react';
-import { languageOptions, LanguageContext } from './langues';
+import { LanguageContext } from './langues';
+import '../styles/Selector.css'
 
 export default function Selector() {
     const { userLanguage, setUserLanguage } = useContext(LanguageContext);
-    // set selected language by calling context method
-    const handleLanguageChange = e => setUserLanguage(e.target.value);
+
+    const handleLanguageChange = e => {
+        setUserLanguage(e);
+    }
+    console.log(userLanguage)
     return (
-        <select
+        <div className={"fr"=== userLanguage ? 'Selector fr_first' : 'Selector en_first'}>
+            <button
+                className={"fr"=== userLanguage ? "Selector_langue Selector_selected" : "Selector_langue"}
+                onClick={() => handleLanguageChange("fr")}>
+                FR</button>
+            <button
+                className={"en"=== userLanguage ? "Selector_langue Selector_selected" : "Selector_langue"}
+                onClick={() => handleLanguageChange("en")}>
+                EN</button>
+
+        </div>
+        /*<select
             onChange={handleLanguageChange}
             value={userLanguage}
         >
             {Object.entries(languageOptions).map(([id, name]) => (
                 <option key={id} value={id}>{name}</option>
             ))}
-        </select>
+        </select>*/
     );
 };
