@@ -21,6 +21,12 @@
         "naturalness"
     ],
     "videos": "My Videos :",
+    "v_demoproduit": "Product Presentation (French)",
+    "v_stopmotion": "Music + Stop Motion",
+    "v_trend": "Trend Tiktok",
+    "v1": "Using your products in video and explaining its benefits will encourage customer belief, which will boost your brand's sales.",
+    "v2":"A trendy music and a simple video, it's the ideal way to capture the attention of users on your product, while showing its usefulness.",
+    "v3":"Tiktok trends are a view booster to increase the visibility of your content and boost sales.",
     "photos": "My Photos :",
     "sevicestitle": "What I offer",
     "servicesintro": "There are so many ways to communicate with your target audience, here are some examples of what I can do for you:",
@@ -29,8 +35,16 @@
     "voixoff": "Voice-over",
     "esthetique": "Aesthetic",
     "collab": "Each collaboration is unique, I will listen carefully to your ideas and will be happy to realize them! ",
-    "tarif": ["", " Rates"," may vary from one content to another (type of video, number of hooks, use of the content, preparation of the script etc...)."],
-    "devis": ["I let you contact me to build a ", "quote" ," together ✨"],
+    "tarif": [
+        "",
+        " Rates",
+        " may vary from one content to another (type of video, number of hooks, use of the content, preparation of the script etc...)."
+    ],
+    "devis": [
+        "I let you contact me to build a ",
+        "quote",
+        " together ✨"
+    ],
     "contacter": "Contact me",
     "footer": "This website was entirely coded by me. Any copying is prohibited."
 }
