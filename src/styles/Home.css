@@ -103,15 +103,13 @@
 
     .Home_pic_phone {
         display: flex;
+        justify-content: center;
     }
 
     .Home_pic_pc {
         display: none;
     }
 
-    .Home_pic_img {
-        margin: 0;
-    }
 
     .Home_links_pic_phone {
         display: flex;
