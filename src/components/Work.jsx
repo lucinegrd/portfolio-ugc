@@ -20,7 +20,7 @@ function Work() {
         <div className='Videos'>
             <div className="Videos_item">
                 <div className='Videos_type'><Text tid="v_demoproduit" i={-1} /></div>
-                <ReactPlayer url={pen} controls="true" playing="true" muted="false" width="auto" loop={true} />
+                <ReactPlayer url={pen} controls="true" playing="true" muted="false" width="auto" loop="true" />
                 <div className='Videos_description'>
                     <Text tid="v1" i={-1} />
                 </div>
