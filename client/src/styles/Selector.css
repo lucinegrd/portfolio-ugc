@@ -1,8 +1,8 @@
 .Selector {
-    position: absolute;
+    position: fixed;
     top: 7px;
     right: 0;
-    transform: translateX(35%);
+    transform: translateX(42%);
     transition: 0.2s;
     background-color: var(--darker-red);
     border-radius: 30px;
@@ -20,7 +20,7 @@
 }
 
 .Selector:hover {
-    transform: translateX(-20%);
+    transform: translateX(-15%);
 }
 
 .Selector_langue {
@@ -31,7 +31,7 @@
 
 .Selector_selected {
     color: var(--beige);
-    padding-right: 10px;
+    padding-right: 8px;
 }
 
 @media (max-width: 640px) {
@@ -41,15 +41,15 @@
         margin-bottom: 10px;
     }
 
-    .Selector:hover{
+    .Selector:hover {
         transform: none;
     }
 
-    .en_first{
+    .en_first {
         flex-direction: row;
     }
 
-    .Selector_langue{
+    .Selector_langue {
         padding-right: 5px;
         padding-left: 5px;
     }

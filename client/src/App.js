@@ -12,6 +12,7 @@ import { Text } from './langues/Text';
 
 function App() {
   return <LanguageProvider>
+    <Selector />
     <Header></Header>
     <Home></Home>
     <About></About>
@@ -23,7 +24,6 @@ function App() {
       <p className='footer_text'>
         <Text tid="footer" i={-1} />
       </p>
-      <Selector />
     </div>
   </LanguageProvider>
 }
